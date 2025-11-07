@@ -173,7 +173,7 @@ section {
     color: white;
     border-radius: 50%;
     padding: 15px 15px;
-    font-size: 32px; /* Aumenta el tamaño del icono */
+    font-size: 64px; /* Aumenta el tamaño del icono */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -203,4 +203,5 @@ section {
         gap: 1rem;
     }
 }
+
 
