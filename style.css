@@ -172,8 +172,11 @@ section {
     background-color: var(--whatsapp-color);
     color: white;
     border-radius: 50%;
-    padding: 15px 18px;
-    font-size: 24px;
+    padding: 15px 15px;
+    font-size: 32px; /* Aumenta el tamaño del icono */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     z-index: 1000;
     box-shadow: 0 5px 10px rgba(0,0,0,0.3);
     transition: transform 0.3s;
@@ -182,6 +185,7 @@ section {
 .whatsapp-btn:hover {
     transform: scale(1.1);
 }
+
 
 /* -------------------- Responsive -------------------- */
 @media (max-width: 768px) {
@@ -199,3 +203,4 @@ section {
         gap: 1rem;
     }
 }
+
